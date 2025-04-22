@@ -4,6 +4,9 @@ public class SomeScript : MonoBehaviour
 {
     private void Start()
     {
+    sdsaergwerg
+    wergewrgwerg
+    wergwerg
         Debug.Log("wefewf"); 
     }
 
