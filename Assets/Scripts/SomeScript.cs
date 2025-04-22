@@ -15,7 +15,7 @@ public class SomeScript : MonoBehaviour
 
     private void SomeAction()
     {
-
+        Debug.Log("someAction");
     }
     
 }
