@@ -4,7 +4,7 @@ public class SomeScript : MonoBehaviour
 {
     private void Start()
     {
-        Debug.Log("wefewf");
+        Debug.Log("wefewf"); 
     }
 
     private void Update()
