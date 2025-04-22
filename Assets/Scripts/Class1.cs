@@ -20,4 +20,9 @@ namespace Assets.Scripts
     {
         void AAA();
     }
+
+    public interface IA
+    {
+
+    }
 }
