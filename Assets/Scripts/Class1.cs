@@ -9,4 +9,11 @@ namespace Assets.Scripts
     internal class Class1
     {
     }
+
+
+    public class SomeClass1
+    {
+
+    }
+
 }
