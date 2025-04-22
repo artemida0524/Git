@@ -16,4 +16,8 @@ namespace Assets.Scripts
 
     }
 
+    public interface IInterface
+    {
+        void AAA();
+    }
 }
