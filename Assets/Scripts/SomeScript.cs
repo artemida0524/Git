@@ -9,6 +9,6 @@ public class SomeScript : MonoBehaviour
 
     private void Update()
     {
-
+        Debug.Log("SomeEdit");
     }
 }
