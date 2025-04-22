@@ -23,6 +23,9 @@ namespace Assets.Scripts
 
     public interface IA
     {
-         
+
+
+void AAAA();
+
     }
 }
