@@ -12,5 +12,11 @@ public class SomeScript : MonoBehaviour
         Debug.Log("SomeEdit");
         //gergergerg
     }
+
+    private void SomeAction()
+    {
+
+    }
+    
 }
 
