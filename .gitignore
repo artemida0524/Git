@@ -35,8 +35,8 @@ sysinfo.txt
 .DS_Store?
 ._*
 .Spotlight-V100
-.vs
 .Trashes
+.vs/
 Icon?
 ehthumbs.db
 Thumbs.db
