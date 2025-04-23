@@ -12,4 +12,12 @@ public class SomeScript : MonoBehaviour
         newPosition += new Vector3(0, 0, value) * Time.deltaTime;
         transform.position = newPosition;
     }
+
+
+
+    private void NewFunc()
+    {
+        Debug.Log("SomeFunc");
+    }
+
 }
