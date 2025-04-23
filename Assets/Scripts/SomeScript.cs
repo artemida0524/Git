@@ -1,23 +1,15 @@
+using TMPro;
 using UnityEngine;
 
 public class SomeScript : MonoBehaviour
 {
-    private void Start()
-    {
-        Debug.Log("wefewf"); 
-    }
+    [SerializeField] private int value;
+
 
     private void Update()
     {
-        Debug.Log("SomeEdit");
-        //gergergerg
+        Vector3 newPosition = transform.position;
+        newPosition += new Vector3(0, 0, value) * Time.deltaTime;
+        transform.position = newPosition;
     }
-
-    private void SomeAction()
-    {
-        Debug.Log("someAction");
-
-        //wefwefweffewfwef
-    }
-    
 }
