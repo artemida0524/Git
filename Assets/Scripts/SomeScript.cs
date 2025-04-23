@@ -9,15 +9,7 @@ public class SomeScript : MonoBehaviour
     private void Update()
     {
         Vector3 newPosition = transform.position;
-
         newPosition += new Vector3(0, 0, value) * Time.deltaTime;
-
-
         transform.position = newPosition;
-
-
-
     }
-
 }
-
