@@ -38,11 +38,21 @@ public class MoveHole : MonoBehaviour
         {
             if (offsets[i] != Vector3.zero)
             {
-
+                //some changes
+                //some changes
+                //some changes
+                //some changes
+                //some changes
+                //some changes
                 Vector3 newPos = localPoint + offsets[i];
 
                 if (bounds.Contains(newPos))
                 {
+                    //some changes
+                    //some changes
+
+                    //some changes
+                    //some changes
                     vertices[i] = newPos;
                 }
                 else
