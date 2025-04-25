@@ -13,6 +13,7 @@ public class Class1 : MonoBehaviour
         {
             Debug.Log("New Color");
             GetComponent<MeshRenderer>().material.color = Color.red;
+            Debug.Log("efwefewfwef");
         }
     }
 
