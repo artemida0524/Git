@@ -1,16 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UnityEngine;
 
-namespace Assets.Scripts
+
+public class Class1 : MonoBehaviour
 {
-    public class Class1
+
+    [SerializeField] private int value;
+
+    private void Update()
     {
-
-
-
+        if (value == 0)
+        {
+            Debug.Log("New Color");
+            GetComponent<MeshRenderer>().material.color = Color.red;
+        }
     }
 
 }
