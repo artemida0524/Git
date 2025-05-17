@@ -13,3 +13,10 @@ public class SomeClassBranch1 : MonoBehaviour
     [SerializeField] private GameObject someObject2;
     [SerializeField] private GameObject someObject3;
 }
+
+
+
+
+
+
+
